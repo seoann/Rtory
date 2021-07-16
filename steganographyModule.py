@@ -10,7 +10,7 @@ extensionStartPos = 300
 extensionByteLen = 100
 
 #한글자당 8개
-#길이저장은 /8한거 저장하자.  실제로 64개 비트 보려면 8이라고 저장
+#길이저장은 /8한거 저장.  실제로 64개 비트 보려면 8이라고 저장
 
 
 def bin2(num):
@@ -58,7 +58,7 @@ def desFile(originalImageName, newImageName, solveFileName):
     myBin = ''
     lens = len(original)
 
-    #######################나중에 헤더나 EOF에 숨가자 아니면 인코딩 디코딩이용해서 마찬가지로 LSB에 숨기던지
+    
     #####
     hideLen = 64
 
